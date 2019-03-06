@@ -1,0 +1,36 @@
+---
+title: "UFO sightings"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+library(dplyr)
+library(ggplot2)
+library(maps)
+library(mapdata)
+
+knitr::opts_chunk$set(echo = TRUE)
+source("summary.r")
+source("chart1.r")
+source("chart2.r")
+
+ufo.data <- read.csv("../data/UFOCoords.csv", na.strings = c("NA","N/A",""), stringsAsFactors = FALSE)
+```
+
+## UFO Sightings Summary
+
+```{r summary, include = FALSE}
+summary(ufo.data)
+```
+
+From the data we can see that **California** had the *most sightings in the US*. Across the border, in *Canada*, the province with the most sightings was **Ontario**. We can also find the most reported shape. The *most* reported shape was the **cone** while the *least* reported shape was a **light**. In the *AM* people said they saw something at **midnight**. In the *evening* the most reported time was **9pm**.
+
+## UFO Shapes in Sightings
+```{r, echo = FALSE, message = FALSE}
+plot(chart_1_func(ufo.data))
+```
+
+## Times of UFO Sightings
+```{r, echo = FALSE, message = FALSE}
+plot(chart_2_func(ufo.data))
+```

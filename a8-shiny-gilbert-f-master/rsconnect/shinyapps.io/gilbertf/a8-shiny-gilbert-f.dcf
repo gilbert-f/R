@@ -1,0 +1,12 @@
+name: a8-shiny-gilbert-f
+title: a8-shiny-gilbert-f
+username:
+account: gilbertf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 240135
+bundleId: 1097917
+url: https://gilbertf.shinyapps.io/a8-shiny-gilbert-f/
+when: 1511748530.78449
+asMultiple: FALSE
+asStatic: FALSE
