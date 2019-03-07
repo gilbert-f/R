@@ -2,8 +2,6 @@
 
 *A giant python* in **Indonesia** met an unfortunate end when it was eaten after it lost a battle with a local man.
 
-![python.jpg](https://raw.githubusercontent.com/info201b-au17/a1-md-gilbert-f/master/imgs/python.jpg?token=AX9zHaTL6lb0bdCmNBBHNky3NKVLLWuWks5Z4rTUwA%3D%3D)
-
 > Robert Nababan, security guard, encountered the snake on a palm oil plantation road in Sumatra's Batang Gansal district on Saturday.
 Mr Nababan tried to catch the python, reports say, which was 7.8m (26ft) long.
 It attacked him, and man and reptile fought until Mr Nababan killed it with the help of some villagers.
